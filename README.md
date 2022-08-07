@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+la página está alojada en <https://react-gallery1.netlify.app/>
+
 
 ## Available Scripts
 
