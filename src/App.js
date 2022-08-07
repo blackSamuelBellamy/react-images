@@ -20,7 +20,7 @@ function App() {
                         <LenguajesCards nombre={cardsContent[1].title} img={cardsContent[1].imagen}
                             texto={cardsContent[1].leyend} direccion={cardsContent[1].URL} />
                     </div>
-                    <div className='col-md-4'>
+                    <div className='col-md-4 mb-5'>
                         <LenguajesCards nombre={cardsContent[2].title} img={cardsContent[2].imagen}
                             texto={cardsContent[2].leyend} direccion={cardsContent[2].URL} />
                     </div>

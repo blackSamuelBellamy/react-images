@@ -9,7 +9,7 @@ const cardsContent = [{
 {
     id: 2,
     title: 'React',
-    imagen: 'https://cdn.dribbble.com/users/14814/screenshots/16535574/reactlogo_4x.png',
+    imagen: 'https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png',
     leyend: 'React es una biblioteca Javascript de código abierto diseñada para crear interfaces de usuario con el objetivo de facilitar el desarrollo de aplicaciones en una sola página. Es mantenido por Facebook y la comunidad de software libre',
     URL: 'https://es.reactjs.org/'
 }, {
