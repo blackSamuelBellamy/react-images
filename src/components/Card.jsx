@@ -1,4 +1,8 @@
 
+import '../componentsCss/Card.css';
+import Button from 'react-bootstrap/Button';
+import Alert from 'react-bootstrap/Alert'; 
+
 const cards = document.querySelectorAll('.card');
 const LenguajesCards = (props) => {
     return (
@@ -10,10 +14,10 @@ const LenguajesCards = (props) => {
             <div className='card-body text-center'>
                 <h4 className='card-title'>{props.nombre}</h4>
                 <p className='card-text'>{props.texto}</p>
-                <a href={props.direccion} className="btn btn-outline-secondary text-light" target='_blank'
-                rel = 'noopener noreferrer'>
-                    Official site
-                </a>
+                <Button variant ='secondary text-light'>
+                    <Alert.Link href = {props.direccion} className = 'textoBoton' >Official Site</Alert.Link>
+                </Button>
+    
             </div>
         </div>
     );

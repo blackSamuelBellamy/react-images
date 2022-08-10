@@ -1,3 +1,4 @@
+import '../componentsCss/Footer.css'
 const footerText = 'Página diseñada por Alejandro Quiñones, Todos los derechos reservados.';
 
 const FooterLayout = () => {

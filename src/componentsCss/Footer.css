@@ -1,0 +1,35 @@
+.footer {
+    height: 100vh;
+    background: #12DAFE;
+    transition: .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer span {
+    display: block;
+    background: url(../../public/IMG-20220420-WA0011[699].jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 400px;
+    opacity: 0;
+  }
+  
+  .footer p {
+    color: #002;
+    font-family: 'Poppins';
+    font-size: 1.2em;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+  }
+  
+  @media(max-width: 650px) {
+  
+    .footer {
+      flex-direction: column;
+    }
+  }

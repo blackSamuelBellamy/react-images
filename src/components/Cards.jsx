@@ -2,7 +2,7 @@ const cardsContent = [{
 
     id: 1,
     title: 'Javascript',
-    imagen: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png',
+    imagen: 'https://cutewallpaper.org/24/javascript-logo-png/javascript-logo-clipart-yellow-text-font-transparent-clip-art.png',
     leyend: 'JavaScript es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos, basado en prototipos, imperativo, débilmente tipado y dinámico. Actualmente es el lenguaje más usado en la web',
     URL: 'https://www.javascript.com/'
 },

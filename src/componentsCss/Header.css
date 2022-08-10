@@ -1,0 +1,72 @@
+.headerLayout {
+    min-height: 100vh;
+    width: 100%;
+    background: #002;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .headerLayout::before {
+    content: '';
+    background: url(../../public/logo512.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 90vw;
+    position: absolute;
+    opacity: .2;
+    animation: logo 3s linear infinite;
+  }
+  
+  
+  @keyframes logo {
+    0%, 100% {
+      transform: translate(-50%, -50%)  rotateZ(0);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotateZ(1080deg);
+    }
+  }
+  
+  .headerLayout h1 {
+    text-align: center;
+    color: #FFF;
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: 4em;
+    font-family: 'Poppins';
+    position: relative;
+    top: -400%;
+    opacity: 0;
+    animation: title 2s ease-in-out forwards;
+    transition: all .5s;
+    text-shadow: 0 0 50px #FFF;
+  }
+  
+  @keyframes title {
+    0% {
+      opacity: 0;
+      top: -400%;
+    }
+  
+    95% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      top: 0;
+    }
+  }
+
+  @media(max-width: 500px) {
+    .headerLayout h1 {
+      font-size: 3em;
+    }
+  }
